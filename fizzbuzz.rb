@@ -1,9 +1,8 @@
 def fizzbuzz
-  if fizzbuzz(3)
+  if i % 3 == 0
     puts "Fizz"
-  elseif fizzbuzz(5)
-  puts
-  "Buzz"
-else nil
+    elseif i % 5 == 0
+    puts "Buzz"
+  else nil
 
 end
