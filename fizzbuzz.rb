@@ -1,7 +1,7 @@
-def fizzbuzz
-  if i % 3 == 0
+def fizzbuzz (int)
+  if int % 3 == 0
     puts "Fizz"
-    elseif i % 5 == 0
+    elseif int % 5 == 0
     puts "Buzz"
   else nil
 
